@@ -173,21 +173,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main(), debug=True)
-
-
-async def homework():
-    """
-    Ideas for you to implement to test your understanding:
-    - Respect robots.txt *IMPORTANT*
-    - Find all links in sitemap.xml
-    - Provide a user agent
-    - Normalize urls (make sure not to count mcoding.io and mcoding.io/ as separate)
-    - Skip filetypes (jpg, pdf, etc.) or include only filetypes (html, php, etc.)
-    - Max depth
-    - Max concurrent connections per domain
-    - Rate limiting
-    - Rate limiting per domain
-    - Store connections as graph
-    - Store results to database
-    - Scale
-    """
